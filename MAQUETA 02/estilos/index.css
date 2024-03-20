@@ -33,3 +33,8 @@ main article{
     margin-top: 20px;
     margin-left: 10%;
 }
+
+footer{
+    clear: left;
+    background-color: cadetblue;
+}
