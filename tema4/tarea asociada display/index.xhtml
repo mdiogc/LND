@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="author" content=""/>
+        <meta name="author" content="Marina Giacomaniello Castro"/>
         <title></title>
         <style type="text/css" >
 
@@ -16,6 +16,47 @@
             lower-roman tiene modificado el margen izquierdo y con opacidad del 80%
             decimal-leading-zero tiene modificado el padding izquierdo
             */
+
+            .none {
+                list-style-type: none;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                width: 500px;
+                border: 3px solid blue;
+            }
+
+            .square {
+                list-style-type: square;
+                background-color: #C6BD2D;
+                display: none;
+            }
+
+            .lower-roman {
+                list-style-type: lower-roman;
+                background-color: #677EC1;
+                margin-left: -40px;
+                opacity: 80%;
+                display: none;
+            }
+
+            .decimal-leading-zero {
+                list-style-type: decimal-leading-zero;
+                background-color: #5B886B;
+                padding-left: 0;
+                display: none;
+            }
+
+            .none li:hover .square, .none li:hover .lower-roman, .none li:hover .decimal-leading-zero {
+                display: block;
+            }
+
+            .none li:hover {
+                background-color: #39DE77;
+            }
+
+            li {
+                border: solid 1px black;
+            }
 
 
         </style>
